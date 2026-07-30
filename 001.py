@@ -328,6 +328,19 @@
 
 
 
+#  enumerate function
+
+# l=[2,3,4,5,6,7,10]
+# for index,i in enumerate(l):
+#     print(f"{index} {i}")
+
+
+
+#########list compihention 
+
+
+
+
 
 
 
