@@ -1,16 +1,22 @@
-class good:
-    summary="i dont know"
-    word=10555
+class car:
+    count=0
+    def __init__(self, number):
+        self.number=number
+        car.count+=1
+    def january(self):
+        return self.number
 
-class bad(good):
-    summary="its to easy"
-    word=9999
-    def __init__(self,name , roll):
-        self.name=name
-        self.roll=roll
-        print(name, roll)
+class electriccar(car):
+    def january(self):
+        return self.number
 
-a=bad("ha bhai", 200)
-print(a.summary)
+class petrolcar:
+    pass
 
 
+a=car(500)
+print(a.january())
+b=electriccar(699)
+print(b.january())
+
+print(b.count)

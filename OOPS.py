@@ -29,10 +29,6 @@ class electriccar(car):
     def fueltype(self):
             return "eletric charge"
 
-
-    
-
-
 mytesla=electriccar("tesla","suiiiiii","86kw")
 
 print(mytesla.brand)
